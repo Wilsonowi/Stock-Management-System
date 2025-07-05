@@ -1,0 +1,28 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial;
+    -fx-base: #3498db;
+    -fx-background: #ecf0f1;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#3498db, #2980b9);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2980b9, #3498db);
+	-fx-transition: -fx-background-color 0.3s;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.text-area {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 13px;
+}
